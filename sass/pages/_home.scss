@@ -1,0 +1,166 @@
+.text-section{
+    padding: 100px 0px 120px 0px;
+    justify-content: center;
+
+    &--gray{
+        background-color: $color-light-gray;
+    }
+
+    &--primary{
+        background-color: $color-primary;
+        color: $color-white;
+    }
+
+    &--transparent{
+        background-color: $color-transparent;
+        color: $color-white;
+    }
+
+    &__description{
+        padding-left: 26%;
+        padding-right: 26%;
+        padding-top: 40px;
+        padding-bottom: 50px;
+        margin-bottom: $margin-xlarge;
+    }
+}
+
+.card-white-section{
+    padding: 0px 70px 100px 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: $color-light-gray;
+}
+
+.image-text-section-1{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: $color-light-gray;
+    &__left{
+        width: 55%;
+        img{
+          width: 100%;
+        }
+      }
+    
+      &__right{
+        width: 26%;
+        padding: 70px;
+        //margin-top: 70px;
+        
+      }
+      .large-description{
+        margin-top: $margin-xlarge;
+        margin-bottom: $margin-medium;
+    }
+    .small-description{
+        margin-bottom: $margin-xlarge;
+    }
+}
+
+
+.imagebackground-text-section{
+    //display: flex;
+    //flex-wrap: wrap;
+    background-image: url(../images/12.jpg);
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+      &__right{
+        width: 38%;
+        padding: 60px;
+        float: right;
+      }
+      .large-description{
+        margin-top: $margin-xlarge;
+        margin-bottom: $margin-medium;
+        color: $color-white;
+    }
+    .small-description{
+        margin-bottom: $margin-xlarge;
+    }
+}
+
+.circle-icon-info-section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: $color-white;
+    margin: 0 10rem;
+    padding: 100px 100px 100px 100px;
+    position: relative;
+    top: -55px;
+}
+
+.tab-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.card-image-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.feature-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 100px 50px 120px 50px;
+    background-color: $color-dark-2;
+    //padding: 0 5rem;
+}
+
+.card-team-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 100px 50px 120px 50px;
+
+}
+
+.card-text-section{
+    background-image: url(../images/pattren.jpg);
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  //padding: 100px 100px 100px 100px;
+}
+
+.cards-info-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 100px 120px 120px 120px;
+    background-color: $color-light-gray;
+}
+
+.clients-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 100px 50px 120px 50px;
+    background-color: $color-primary;   
+}
+
+.clients-say-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    //justify-content: space-between;
+    //padding: 100px 50px 120px 50px;
+    margin-top: 80px;
+}

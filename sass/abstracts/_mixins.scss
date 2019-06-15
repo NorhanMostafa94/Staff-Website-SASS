@@ -1,0 +1,7 @@
+@mixin block-colors($back-color,$fore-color,$border:0 solid white) {
+    background-color: $back-color;
+    color: $fore-color;
+    border: $border;
+    box-sizing: border-box;
+    outline-offset: -0.5rem;
+}

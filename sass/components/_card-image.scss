@@ -1,0 +1,57 @@
+
+.card-image{
+    position: relative;
+    width: 40rem;
+    //height: 40rem;
+
+    &:hover{
+        .card-image__overlay{
+            opacity: 1;
+        }
+    }
+
+    &__overlay{
+        position: relative;
+        top: 0;
+        //bottom: 0;
+        //left: 0;
+        //right: 0;
+        background-color: $color-dark-alpha;
+        width: 100%;
+        height: 40rem;
+        //height: 100%;
+        opacity: 0;
+        z-index: 999;
+        transition: all 0.4s ease-out 0s;
+        .card-image__caption{
+            position: absolute;
+            width: 100%;
+            //height: 100%;
+            font-size: 1.4rem;
+            font-weight: 400;
+            color: $color-white;
+            margin: 15rem auto;
+            z-index: 2;
+            letter-spacing: 2px;
+            &::after{
+                content: '';
+                display: block;
+                background-color: $color-white;
+                width: 40%;
+                height: 1px;
+                margin: 8px auto;
+            }
+        }
+    }
+    &__image{
+        position: absolute;
+        //display: block;
+        //top: 0;
+        width: 100%;
+        //height: 100%;
+        img{
+            width: 100%;
+           // height: 100%;
+        }
+    }
+}

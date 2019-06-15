@@ -1,0 +1,25 @@
+.footer{
+    //position: relative;
+    display: flex;
+    //justify-content: center;
+    justify-content: space-between;
+    padding: 100px 60px 120px 60px;
+    flex-wrap: wrap;
+    background-color: $color-dark;
+
+    &__col{
+        width: 25rem;
+        .col__header{
+            margin-bottom: $margin-xlarge;
+        }
+        .col__description{
+            margin-bottom: $margin-xmedium;
+        }
+        .list{
+            .list__item{
+                padding-top: 20px;
+                //padding-right: 10px;
+            }
+        }
+    }
+}

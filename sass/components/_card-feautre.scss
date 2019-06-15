@@ -1,0 +1,43 @@
+.card-feautre{
+    width: 15.33333333%;
+    padding: 80px;
+    transition: all 0.3s ease-out 0s;
+    margin-bottom: 50px;
+
+    &:hover{
+    -webkit-box-shadow: 1px 4px 20px -2px rgba(0,0,0,0.2);
+    box-shadow: 1px 4px 20px -2px rgba(0,0,0,0.2);
+    transform: translateY(-8px);
+    }
+
+    &--primary{
+        background-color: $color-primary;
+        color: $color-white;
+    }
+
+    &--white{
+        background-color: $color-white;
+        color: $color-dark;
+    }
+
+    &--dark{
+        background-color: $color-dark;
+        color: $color-white;
+    }
+
+    &__icon{
+        font-size: 6rem;
+        font-weight: 300;
+        // &::before{
+        //     content: "\e042";
+        // }
+    }
+
+    &__title{
+        margin-bottom: $margin-large;
+    }
+    
+    &__description{
+        margin-bottom: $margin-medium;
+    }
+}

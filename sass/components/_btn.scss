@@ -1,0 +1,54 @@
+.btn
+{
+    transition:  0.3s ease-out 0s;
+    //text-transform: uppercase;
+    padding-right: $padding-large;
+    padding-left: $padding-large;
+    //margin-right: $margin-large;
+    &--rectangle{ 
+        padding-top: $padding-small;
+        padding-bottom: $padding-small;
+        border-radius: 4px;
+    }
+    &--rounded{
+        padding-top: $padding-xsmall;
+        padding-bottom: $padding-xsmall;
+        border-radius: 25px;
+    }
+    &--primary{
+        @include block-colors($color-primary,$color-white);
+        &:hover{
+            @include block-colors($color-white,$color-dark);
+        }
+    }
+    &--primary-dark{
+        @include block-colors($color-primary,$color-white);
+        &:hover{
+            @include block-colors($color-dark,$color-white);
+        }
+    }
+    &--dark{
+        @include block-colors($color-dark,$color-white);
+        &:hover{
+            @include block-colors($color-dark-alpha,$color-white);
+        }  
+    }
+    &--borderd-white{
+        @include block-colors($color-transparent,$color-white,2px solid $color-white);
+        &:hover{
+            @include block-colors($color-white,$color-dark,2px solid $color-white);
+        }
+    }
+    &--borderd-dark{
+        @include block-colors($color-transparent,$color-dark,2px solid $color-dark);
+        &:hover{
+            @include block-colors($color-primary,$color-dark,2px solid $color-primary);
+        }
+    }
+    &--borderd-primary{
+        @include block-colors($color-transparent,$color-dark,3px solid $color-primary);
+        &:hover{
+            @include block-colors($color-primary,$color-white,3px solid $color-primary);
+        }
+    }
+}

@@ -1,0 +1,49 @@
+.tab{
+    position: relative;
+    //width: 50px;
+    margin-bottom: $margin-xlarge;
+    &:hover{
+        .tab__counter{
+            opacity: 1;
+            top: -45px;
+        }
+    }
+    &--primary{
+        background-color: $color-primary;
+        color: $color-white;
+    }
+    &--borderd{
+        background-color: transparent;
+        border: 1px solid $color-light-gray-2;
+        color: $color-gray;
+    }
+    &__counter{
+        opacity: 0;
+        width: 34px;
+        background-color: $color-primary;
+        color: $color-white;
+        border-radius: 3px;
+        padding: 4px 0;
+        text-align: center;
+        position: absolute;
+        margin: 0 auto;
+        //margin-left: 22px;
+        right: 0;
+        left: 0;
+        top: 0px;
+        transition: all 0.3s ease-out 0s;
+        &::after{
+            content: "";
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: 0;
+            height: 0;
+            border-top: 4px solid $color-primary;
+            border-left: 4px solid transparent;
+            border-right: 4px solid transparent;
+        }
+    }
+}

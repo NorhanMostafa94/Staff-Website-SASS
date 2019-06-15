@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+
+@import 'base/animations';
+@import 'base/base';
+@import 'base/typography';
+@import 'base/utilities';
+
+@import 'components/btn';
+@import 'components/card-team';
+@import 'components/card-white';
+@import 'components/card';
+@import 'components/circle-icon-info';
+@import 'components/section';
+@import 'components/dropdown';
+@import 'components/card-feautre';
+@import 'components/icon-description';
+@import 'components/card-image';
+@import 'components/card-info';
+@import 'components/links';
+@import 'components/list';
+@import 'components/menu';
+@import 'components/text';
+@import 'components/tabs';
+
+@import 'layout/footer';
+@import 'layout/header';
+@import 'layout/slider-section';
+
+@import 'pages/home';

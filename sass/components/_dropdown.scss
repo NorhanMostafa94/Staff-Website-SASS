@@ -1,0 +1,181 @@
+.ddl{
+    display: none;
+    background-color: $color-white;
+    position: absolute;
+    //padding-top: $padding-xsmall;
+    //padding-bottom: $padding-xsmall;
+    //padding-left: $padding-small;
+    //padding-right: $padding-small;
+    margin-top: $padding-large+.38rem;
+    max-height: 2000px;
+    width: 230px;
+    transition: all 0.3s ease-in-out 0s;
+    //left: auto;
+    //right: auto;
+    //z-index: 999;
+
+    .link{
+        color: $color-dark;
+        &:hover{
+            transition:  0.3s ease-out 0s;
+            color: $color-primary;
+            margin-left: $margin-small;
+        }
+    }
+    .ddl-item{
+        list-style-type: none;
+        padding-top: $padding-medium;
+        padding-bottom: $padding-medium;
+        padding-left: $padding-xmedium;
+        padding-right: $padding-xmedium;
+        border-bottom: 1px solid $color-light-gray;
+    }
+    .col{
+        display: flex;
+    }
+}
+
+.ddl-sub{
+    display: none;
+    background-color: $color-white;
+    position: absolute;
+    //padding-top: $padding-xsmall;
+    //padding-bottom: $padding-xsmall;
+    //padding-left: $padding-small;
+    //padding-right: $padding-xmedium;
+    margin-top: $padding-large+.48rem;
+    max-height: 2000px;
+    width: 230px;
+    //margin-left: 10px;
+    top: -35px;
+    //left: -0px;
+    left: 100%;
+    right: auto;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out 0s;
+    .link{
+        color: $color-dark;
+        &:hover{
+            transition:  all 0.3s ease-out 0s;
+            color: $color-primary;
+            margin-left: $margin-small;
+        }
+    }
+    .ddl-sub-item{
+        list-style-type: none;
+        padding-top: $padding-xsmall;
+        padding-bottom: $padding-xsmall;
+        padding-left: $padding-xmedium;
+        padding-right: $padding-xmedium;
+        border-bottom: 1px solid $color-light-gray;
+        position: absolute;
+    }
+}
+
+.ddl-mega{
+    display: none;
+    //list-style-type: none;
+    background-color: $color-white;
+    position: absolute;
+    padding-top: $padding-xlarge;
+    padding-bottom: $padding-xlarge;
+    //padding-left: $padding-small;
+    //padding-right: $padding-xmedium;
+    margin-top: $padding-large+.38rem;
+    max-height: 2000px;
+    width: 100rem;
+    //margin-left: 120px;
+    //top: -44px;
+    left: -240px;
+    transition: all 0.1s ease-out 0s;
+    .link{
+        position: absolute;
+        color: $color-dark;
+        &:hover{
+            transition:  0.3s ease-out 0s;
+            color: $color-primary;
+            margin-left: $margin-small;
+        }
+
+}
+.col{
+    width: 25%;
+}
+.ddl-mega-header{
+    list-style-type: none;
+    font-weight: 600;
+    padding-top: $padding-xsmall;
+    padding-bottom: $padding-xmedium;
+    padding-left: $padding-xmedium;
+    padding-right: $padding-xmedium;
+}
+.ddl-mega-item{
+    list-style-type: none;
+    padding-top: $padding-medium;
+    padding-bottom: $padding-xmedium;
+    padding-left: $padding-xmedium;
+    padding-right: $padding-xmedium;
+    //border-bottom: 1px solid $color-light-gray;
+    //position: absolute;
+}
+}
+
+
+
+
+// .dropdown{
+//     //float: left;
+
+//     li{
+//         padding-top: $padding-xsmall;
+//         padding-bottom: $padding-xsmall;
+//         padding-left: $padding-xmedium;
+//         padding-right: $padding-xmedium;
+//         border-bottom: 1px solid $color-light-gray;
+//     }
+//     list-style-type: none;
+//     display: none;
+//     background-color: $color-white;
+//     //color: $color-dark;
+//     position: absolute;
+//     margin-top: $padding-large+.38rem;
+//     max-height: 2000px;
+//     width: 230px;
+//     .link{
+//         color: $color-dark;
+//         &:hover{
+//             transition:  0.3s ease-out 0s;
+//             color: $color-primary;
+//             margin-left: $margin-small;
+//         }
+//     }
+// }
+// .dropdown-sub{
+//     li{
+//         padding-top: $padding-xsmall;
+//         padding-bottom: $padding-xsmall;
+//         padding-left: $padding-xmedium;
+//         padding-right: $padding-xmedium;
+//         border-bottom: 1px solid $color-light-gray;
+//     }
+//     list-style-type: none;
+//     display: none;
+//     background-color: $color-white;
+//     //color: $color-dark;
+//     position: absolute;
+//     max-height: 2000px;
+//     width: 230px;
+//     //margin-left: 200px;
+//                 left: 100%;
+//                 top: 0 auto;
+//                 right: auto;
+//     .link{
+//         color: $color-dark;
+//         &:hover{
+//             transition:  0.3s ease-out 0s;
+//             color: $color-primary;
+            
+//         }
+//     }
+    
+// }

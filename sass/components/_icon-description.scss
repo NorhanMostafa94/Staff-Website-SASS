@@ -1,0 +1,10 @@
+.icon-block{
+    display: inline-flex;
+    margin-bottom: 15px;
+    &--white-color{
+      color: $color-white;
+    }
+    &__text{
+      padding-left: 20px;
+    }
+  }

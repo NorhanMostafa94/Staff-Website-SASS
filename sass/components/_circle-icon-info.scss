@@ -1,0 +1,43 @@
+.circle-info{
+    display: flex;
+    //width: 30rem;
+    justify-content: center;
+    margin-bottom: $margin-large;
+    &--small{
+        width: 29rem;
+    }
+    //justify-content: space-evenly;
+    &__circle{
+        overflow: hidden;
+        border: 1px solid $color-light-gray-2;
+        border-radius: 100%;
+        width: 120px;
+        height: 120px;
+        font-size: 3.8rem;
+        line-height: 106px;
+        margin-right: $margin-xlarge;
+        background-color: $color-white;
+        img{
+            width: 100%;
+            border-radius: 100%;
+        }
+    }
+    &__info{
+        //width: 50%;
+        &--large{
+            width: 35%;
+            text-align: left;
+        }
+        &--small{
+            width: 50%;
+        }
+        .title{
+            margin-bottom: $margin-large;
+        }
+        .description{
+            padding-right: 4.5rem;
+            line-height: 23px;
+            margin-bottom: 50px;
+        }
+    }
+}

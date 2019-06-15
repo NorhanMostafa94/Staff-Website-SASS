@@ -1,0 +1,47 @@
+.link{
+    font-size: 1.4rem;
+    // padding-top: $padding-xlarge;
+    // padding-bottom: $padding-xlarge;
+    // padding-left: $padding-medium;
+    // padding-right: $padding-medium;
+
+    &--white-hover{
+        color: $color-white;
+        &:hover{
+            color: $color-primary;
+            transition: all 0.3s ease-out 0s;
+        }
+    }
+
+    &--dark{
+        color: $color-dark;
+        &:hover{
+            color: $color-primary;
+            padding-left: $padding-xlarge;
+            //transition-duration: 0.3s;
+            transition:  padding-left 0.3s ease-out 0s;
+        }
+    }
+
+    &--primary{
+        color: $color-primary;
+        &:hover{
+            color: $color-dark;
+            //padding-left: $padding-xlarge;
+            //transition-duration: 0.3s;
+            transition: all 0.3s ease-out 0s;
+        }
+    }
+
+    &--white{
+        color: $color-white;
+    }
+
+    &--gray{
+        color: $color-gray;
+        &:hover{
+            color: $color-white;
+            transition: all 0.3s ease-out 0s;
+        }
+    }
+}

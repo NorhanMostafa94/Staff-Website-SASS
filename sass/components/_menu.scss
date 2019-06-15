@@ -1,0 +1,91 @@
+.menu{
+    display: inline-flex;
+    //position: relative;
+    &__list-item{
+        padding-top: $padding-xlarge;
+        padding-bottom: $padding-xlarge;
+        padding-left: $padding-medium;
+        padding-right: $padding-medium;
+        list-style-type: none;
+        &:hover{
+            .ddl{
+                display: block;
+          
+          }
+          }
+        }
+        .list-item-sub{
+            position: relative;
+        // position: absolute;
+        // top: 0;
+            &:hover{
+                .ddl-sub{
+                    display: block;
+                    animation: moveToRight 0.1s;
+                    -webkit-animation: moveToRight 0.1s;
+                //transform: translate(50px,0);
+    //             -webkit-transform: translate(3em,0);
+    // -moz-transform: translate(3em,0);
+    // -o-transform: translate(3em,0);
+    // -ms-transform: translate(3em,0);
+    // transform: translate(3em,0);
+                //transition: all 0.3s ease-out 0s;
+                }
+            }
+        }
+        .list-item-mega{
+            //position: absolute;
+            &:hover{
+                .ddl-mega{
+                    display: flex;
+                }
+            }
+        }
+    }
+
+
+
+
+
+// ul{
+
+//     &.menu{
+//     display: inline-flex;
+//     float: right;
+   
+//         >li{
+            
+//             list-style-type: none;
+//             padding-top: $padding-xlarge;
+//             padding-bottom: $padding-xlarge;
+//             padding-left: $padding-medium;
+//             padding-right: $padding-medium;
+//             &:hover .dropdown{
+//                 display: block;
+//             }
+//             .mega-menu{
+               
+//                     display: flex;
+//                     //float: left;
+//                     width: 690px;
+//                     margin-left: -380px;
+//                     position: absolute;
+//                     background-color: $color-white;
+                
+//             }
+        
+//         ul>li{
+//             list-style-type: none;
+            
+//             // padding-top: $padding-xlarge;
+//             // padding-bottom: $padding-xlarge;
+//             // padding-left: $padding-medium;
+//             // padding-right: $padding-medium;
+            
+//             &:hover .dropdown-sub{
+//                 display: block;
+//             }
+//         }
+//     }
+// }
+// }
